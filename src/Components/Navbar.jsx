@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full top-0 left-0">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7 ">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-sans text-white">
           The PitLane |<span className="text-rose-600 ml-10">Driver Profiler</span>
