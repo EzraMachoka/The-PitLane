@@ -8,7 +8,7 @@ const Drivers = () => {
       .then((data) => setdrivers(data.MRData.DriverTable.Drivers));
   }, []);
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-4 gap-4 mt-40 bg-black bg-repeat w-full">
       {drivers.map((driver) => (
         <div
           className="card grid-item"
@@ -22,7 +22,7 @@ const Drivers = () => {
             style={{width:"200px"}}
           />
           <div className="card-body">
-            <h5 className="card-title">{driver.givenName}</h5>
+            <h5 className="card-title"><span className="text-rose-600">{driver.givenName}</span></h5>
             <p className="card-text">Armor: {driver.familyName}</p>
             <p className="card-text">Damage: {driver.dateOfBirth}</p>
             <p className="cardtext">Health: {driver.nationality}</p>

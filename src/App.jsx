@@ -9,7 +9,7 @@ import './index.css'
 function App() {
   return (
     // Helps to navigate to whatever has been clicked
-    <div className="bg-black w-full h-screen text-white">
+    <div className="bg-black bg-repeat w-full h-screen text-white">
       <BrowserRouter>
         <Navbar />
         <Routes>
