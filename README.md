@@ -8,6 +8,18 @@
 - React
 - Vite
 
+## Features
+- Displays driver's details when the Driver component in the Navbar section is clicked. 
+- Displays the App logo when the Home Component in the Navbar is clicked.
+- Gives  a brief description of what  the app is all about when the ABOUT is clicked.
+
+### Usage
+- Clone or download the repository to your local machine.
+- Open your preferred code editor, most preferably, VS Code.
+- Run the command npm install, then npm run dev on your VS Code terminal.This should provide you with a link to the web app. Else, you could click on the link provided at the end of this document.
+- This link  http://localhost:5173/ should show up. Click on it to be redirected to the web app.
+- You should be able to see the home page that reads the name and logo of the web app.
+- Click on 'Drivers' to get a list of all drivers.
 
 # React + Vite
 
