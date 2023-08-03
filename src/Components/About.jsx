@@ -8,13 +8,12 @@ const About = () => {
       </h1>
       <h3 className="text-3xl mt-12 mx-10 text-center">
         The Pitlane is a Web App that helps Formula 1 fans and enthusiasts keep
-        up with Drivers to various Cosntructors. With the growing intrest inthe
-        spot, the application simply aids rookie fans as well as vets know who
-        their favorite driver is. Besides, it also provides slight insite on the
-        Driver's basic stats like theri race wins, pole positions, their
-        favorite circuit and such. It also displays the Driver standinngs for
-        the last 4 seasons. With this application, all your favorite driver's
-        basic knowldege is inclusive. Stay tuned for more updates and details.
+        up with Drivers to various Cosntructors. With the growing intrest in the
+        sport, the application simply aids rookie fans as well as veterans know who
+        their favorite driver is. Besides, it also provides slight insite into the
+        Driver's basic stats like their Family Name, Given Name, Nationality,
+        Age and such. With this application, all your favorite driver's basic
+        knowldege is inclusive. Stay tuned for more updates and details on your favorite driver.
       </h3>
     </div>
   );
