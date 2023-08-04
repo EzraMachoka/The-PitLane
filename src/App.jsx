@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 
 
+
 function App() {
   return (
     // Helps to navigate to whatever has been clicked

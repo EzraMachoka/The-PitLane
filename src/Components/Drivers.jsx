@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Drivers = () => {
     const [drivers, setdrivers] = useState([])
   useEffect(() => {
-    fetch("http://ergast.com/api/f1/drivers.json")
+    fetch("https://ergast.com/api/f1/drivers.json")
       .then((r) => r.json())
       .then((data) => setdrivers(data.MRData.DriverTable.Drivers));
   }, []);
