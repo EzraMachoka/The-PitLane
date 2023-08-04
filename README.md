@@ -49,3 +49,5 @@ Here is the link to my deployed app on Netlify. Please keep refreshing because a
 - https://pitlane2023.netlify.app/
 - 
 -   http://localhost:5173/the-pitlane/
+
+-https://rococo-maamoul-41dac3.netlify.app/
