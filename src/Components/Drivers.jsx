@@ -11,7 +11,7 @@ const Drivers = () => {
     <div className="grid grid-cols-4 gap-4 mt-40 bg-black bg-repeat w-full">
       {drivers.map((driver) => (
         <div
-          className="card grid-item"
+          className="card grid-item  flex flex-col flex-wrap"
           style={{ width: "18rem" }}
           key={driver.driverId}
         >
